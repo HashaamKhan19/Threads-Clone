@@ -5,7 +5,7 @@ import { revalidatePath } from "next/cache";
 
 import { connectToDB } from "../mongoose";
 import User from "../models/user.model";
-import Community from "../models/Community.model";
+import Community from "../models/community.model";
 import Thread from "../models/thread.model";
 
 export async function fetchUser(userId: string) {
